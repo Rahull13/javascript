@@ -16,7 +16,7 @@ let isLoggedIn = "rahu"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 // 1 => true; 0 => false
 // "" => false
@@ -26,5 +26,16 @@ let someNumber = 23
 
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// Operations
+
+let vaalue = 3
+let negValue = -vaalue
+
+// console.log(negValue)
+
+// console.log("1" + 2);
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
