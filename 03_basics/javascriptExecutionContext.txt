@@ -23,7 +23,18 @@ Execution Process
     let result1 = addNum(val1, val2)
     let result2 = addNum(10, 3)
 
+
+
     Steps for Execution
 
-        1. Global Execution - First allocate to this. (Hoga hi hoga ye)
-        2. 
+        1. Global Execution - First allocate to 'this'. (Hoga hi hoga ye)
+        2. Memory Phase
+            val1 -> undefind
+            val2 -> undefind
+            addNum -> defination
+            result1 -> undefind
+            result2 -> undefind
+        3. Execution Phase
+            val1 <- 5
+            val2 <- 10
+            addNum --> New variable environment + Execution thread
