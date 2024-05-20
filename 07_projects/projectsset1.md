@@ -8,6 +8,6 @@
 ## project 1
 
 ```javascript
-console.log('Rahul)
+console.log('Rahul')
 
 ```
